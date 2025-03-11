@@ -1,0 +1,65 @@
+body {
+    background-color: #192734;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p {
+    color: white;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#quick_links {
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    color: rgb(125, 216, 246);
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    transition: font-size 0.3s ease;
+}
+
+a:hover {
+    color: rgb(125, 216, 246);
+    text-align: center;
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+#login {
+    background-color: rgb(63, 190, 190);
+    color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    border-radius: 5px;
+    border: none;
+    height: 40px;
+    width: 100px;
+    transition: background-color 0.3s ease;
+}
+
+#login:hover {
+    background-color: rgb(58, 123, 144);
+    color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    border: none;
+}
+
+
+#loginButtonDiv {
+    text-align: right;
+}
